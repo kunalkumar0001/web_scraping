@@ -1,9 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[49]:
-
-
+#Important libraries
 import pandas as pd
 from parsel import Selector
 import time
@@ -123,18 +118,7 @@ df.to_csv('profile_linkedin.csv')
 driver.quit()
                 
 
-        
-        
-        
 
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
 
 
 
