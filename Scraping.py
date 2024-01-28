@@ -32,7 +32,7 @@ driver.get("https://www.linkedin.com")
 username=driver.find_element(By.ID, 'session_key')
 
 #send_keys() to simulate key strokes
-username.send_keys("kunalqwerty0@gmail.com")
+username.send_keys("YOUR EMAIL")
 
 #sleep for 0.5 seconds
 sleep(0.5)
@@ -41,7 +41,7 @@ sleep(0.5)
 password=driver.find_element(By.ID, "session_password")
 
 #send_keys() to simulate key strokes
-password.send_keys("Linkedinkk@0")
+password.send_keys("YOUR PASSWORD")
 sleep(0.5)
 
 #Locate submit button by_xpath
